@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+         
+
+        <title>Spin Out</title>
+
+        <style type="text/css">
+        	html{
+        		scroll-behavior: smooth;
+        	}
+
+            .typew{
+                width: 70%;
+                vertical-align: middle;
+                margin: auto;
+                text-align: center;
+                font-size: 55px;
+            }
+            
+            #diamante{
+                width: 50px; 
+                height: 50px; 
+                border: 3px solid #555; 
+                background: yellow;
+                -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+                -moz-transform: rotate(45deg) skew(15deg, 15deg);
+                -ms-transform: rotate(45deg) skew(15deg, 15deg);
+                -o-transform: rotate(45deg) skew(15deg, 15deg);
+                transform: rotate(45deg) skew(15deg, 15deg);"
+            }
+
+            #diamante:hover{
+                background-color:#555; 
+            }
+
+
+            #circulo1{
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            border-radius: 1000px;
+            border: 5px black solid;
+            margin: 40px 40px;
+        }
+        #circulo2{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            border-radius: 1000px;
+
+
+        }
+        #circulo3{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border-radius: 1000px;
+
+        }
+        #linea{
+            width: 1000px;
+            height: 5px;
+            border-radius: 50px;
+            background-color: black;
+        }
+        .boton{
+            background-color: #FFEA00;
+            width: 655px;
+            height: 149px;
+            border: 5px black solid;
+            border-radius: 30px;
+            color: black;
+            font-family: fonts/encodesansexpanded-black.ttf;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+        }
+
+        #flexb{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+    <div class="row">
+        <div style="z-index: 1;position: fixed;right: 100px;top: 200px;">
+            <a href="index.html#section1"><div id="diamante"></div></a>
+            <div style="height: 40px"></div>
+            <a href="index.html#section2"><div id="diamante"></div></a>
+            <div style="height: 40px"></div>
+            <a href="index.html#section3"><div id="diamante"></div></a>
+            <div style="height: 40px"></div>
+            <a href="index.html#section4"><div id="diamante"></div></a>
+
+        </div>
+
+        <div class="col-lg-12" style="background: #F7F7F7;border: double; height: 100vh;" id="section1">
+            <div style="background: red;width: 403px;height: 99px;margin: 20px auto;"><img src="img/logo.jpg" width= "403px" height ="99px" ></div>
+            <div id="typer1" class="typew"></div>
+            <hr  style="background-color:black;height: 10px;width: 40%;">
+            <div id="typer2" class="typew"></div>
+            <div class="col-lg-12" style="height: 200px;"></div>
+            <div class="col-lg-12" style="margin: auto"><p align="center"><strong>Únete a la comunidad de estudiantes universitarios que mejoran el ecosistema de <u>innovación y emprendimiento en etapa temprana</u></strong></p></div>
+
+
+
+
+        </div>
+
+        <div class="col-lg-12" style="background: black; height: 100vh" id="section2">
+
+
+
+        <div class="container" style=" height: 100vh" >
+        <div class="row">
+            <p style="color: white;font-size: 20px">Diseñamos e implementamos estrategias para mejorar el ecosistema de innovacion y emprendimiento en etapa temprana de sus universidades.</p>
+            <div class="col-lg-6" style="display: flex;justify-content: center;align-items: center;">
+                <div id="circulo1" style="background: black; z-index: 1;display: flex;justify-content: center;align-items: center;border: white 0.4em solid">
+                    <div id="circulo2" style="background: green; z-index: 2;display: flex;justify-content: center;align-items: center;border: white 0.4em solid">
+                        <div id="circulo3" style="background: yellow;z-index: 3;display: flex;justify-content: center;align-items: center;border: white 0.4em solid"></div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-6">
+                <div  style="display: flex;justify-content: center;align-content: flex-end; flex-direction: column;">
+                    <div class="col-lg-12" id="cont1">
+                    <h1 style="color: white;font-size: 30px;" id="titu1">¿QUÉ?</h1>
+                    <p style="color: white;font-size: 28px;" id="parra1">Diseñamos e implementamos estrategias para mejorar el ecosistema de innovacion y emprendimiento en etapa temprana de sus universidades.</p>
+                </div>
+                <div class="col-lg-12"  id="cont2">
+                    <h1 style="color: white;font-size: 30px;" id="titu2">¿CÓMO?</h1>
+                    <p style="color: white;font-size: 28px;" id="parra2">Mediante una cultura que desafia el status quo, desarrollo progresivo y aprendizaje comunitario.</p>
+                </div>
+                <div class="col-lg-12"  id="cont3">
+                    <h1 style="color: white;font-size: 30px;" id="titu3">¿PORQUÉ?</h1>
+                    <p style="color: white;font-size: 28px;" id="parra3">Queremos que cualquier estudiante universitario al momento que se gradúe se reconozca a si mismo como un emprendedor e innovador.</p>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>  
+        </div>
+        
+        <div class="col-lg-12" style="background: #F7F7F7" id="section3">
+
+
+        <div class="container">
+    <div class="row" style=";height: 100vh; width: 100%; " >
+        <div class="col-lg-12"><h1 align="center" style="font-family: fonts/encodesansexpanded-black.ttf"><strong>YA HEMOS CREADO<br>VALOR JUNTOS</strong></h1></div>
+        
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/incuba.jpeg" height="100px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/utec.jpeg" height="100px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/incubadora1551.jpeg" height="100px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/enseñaperu.jpeg " height="100px"></div>
+            <div class="col-lg-12" style="background: black;height: 10px;"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/barranco.jpeg" height="100px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/lima.jpeg" height="100px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/tecsup.jpeg" height="70px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/perusv.jpeg" height="100px"></div>
+            <div class="col-lg-12" style="background: black;height: 10px;"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/nexa.jpeg" height="100px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/entel.jpeg" height="80px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/utec.jpeg" height="100px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/techsuyo.jpeg" height="100px"></div>
+            <div class="col-lg-12" style="background: black;height: 10px;"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/coar.jpeg" height="80px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/promperu.jpeg" height="95px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/silabuz.jpeg" height="60px"></div>
+        <div class="col-lg-3 col-sm-6" style="height: 100px;" id="flexb"><img src="img/unjb.jpeg" height="100px"></div>
+            <div class="col-lg-12" style="background: black;height: 10px;"></div>
+        <div class="col-lg-12" id="flexb"><button class="boton" style="width: 400px;height: 80px; font-size: 30px";>COLABOREMOS!</button></div>
+        <!-- style="background: yellow;height: 100px;border: 0.1em black solid;" -->
+    </div>
+</div>
+
+
+
+        </div>
+
+		<div class="col-lg-12" style="background: black;border: double; height: 100vh" id="section4">
+
+
+        <!-- Inserte aqui seccion #4 -->
+
+
+
+        </div>
+
+        
+        
+    </div>
+</div>
+
+
+        <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
+        <script src='js/jquery.typer.js'></script>
+        <script>
+            foo = $('#typer1'),fu = $('#typer2');
+            foo.typer(["ABRAZA LA","Hola a todos"]);
+            fu.typer(["INCERTIDUMBRE","Bienvenidos"]);
+
+            
+            document.getElementById("circulo1").addEventListener("mouseenter",mouseEnter);
+            document.getElementById("circulo1").addEventListener("mouseleave",mouseLeave);
+            document.getElementById("cont1").addEventListener("mouseenter",mouseEnter);
+            document.getElementById("cont1").addEventListener("mouseleave",mouseLeave);
+
+            function mouseEnter() {
+                document.getElementById("circulo1").style.background = "gray";
+                document.getElementById("cont1").style.background = "white";
+                document.getElementById("titu1").style.color = "black";
+                document.getElementById("parra1").style.color = "black";
+            }
+            function mouseLeave() {
+                document.getElementById("circulo1").style.background = "black";
+                document.getElementById("cont1").style.background = "black";
+                document.getElementById("titu1").style.color = "white";
+                document.getElementById("parra1").style.color = "white";
+            }
+
+
+
+
+
+            document.getElementById("circulo2").addEventListener("mouseenter",mouseEnte);
+            document.getElementById("circulo2").addEventListener("mouseleave",mouseLeav);
+            document.getElementById("cont2").addEventListener("mouseenter",mouseEnte);
+            document.getElementById("cont2").addEventListener("mouseleave",mouseLeav);
+
+            function mouseEnte() {
+                document.getElementById("circulo2").style.background = "blue";
+                document.getElementById("cont2").style.background = "white";
+                document.getElementById("titu2").style.color = "black";
+                document.getElementById("parra2").style.color = "black";
+            }
+            function mouseLeav() {
+                document.getElementById("circulo2").style.background = "green";
+                document.getElementById("cont2").style.background = "black";
+                document.getElementById("titu2").style.color = "white";
+                document.getElementById("parra2").style.color = "white";
+            }
+
+
+            document.getElementById("circulo3").addEventListener("mouseenter",mouseEnter2);
+            document.getElementById("circulo3").addEventListener("mouseleave",mouseLeave2);
+            document.getElementById("cont3").addEventListener("mouseenter",mouseEnter2);
+            document.getElementById("cont3").addEventListener("mouseleave",mouseLeave2);
+
+            function mouseEnter2() {
+                document.getElementById("circulo3").style.background = "orange";
+                document.getElementById("cont3").style.background = "white";
+                document.getElementById("titu3").style.color = "black";
+                document.getElementById("parra3").style.color = "black";
+            }
+            function mouseLeave2() {
+                document.getElementById("circulo3").style.background = "yellow";
+                document.getElementById("cont3").style.background = "black";
+                document.getElementById("titu3").style.color = "white";
+                document.getElementById("parra3").style.color = "white";
+            }
+
+        </script>
+    </body>
+</html>
